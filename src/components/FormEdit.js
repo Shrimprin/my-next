@@ -14,7 +14,7 @@ export default function FormEdit({ src: { id, read, memo } }) {
           type="date"
           id="read"
           name="read"
-          className="block bg-gray-100 border-2 border-gray-600 rounded forcus:bg-white focus:outline-none focus:border-red-500"
+          className="block bg-gray-100 border-2 border-gray-600 rounded focus:bg-white focus:outline-none focus:border-red-500"
           default
           Value={read}
         />
